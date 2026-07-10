@@ -172,7 +172,7 @@ function App() {
       );
 
       const response = await fetch(
-        "http://localhost:5000/api/chat",
+        "https://assessment10-ai-chat.onrender.com/api/chat", 
         {
           method: "POST",
           headers: {
